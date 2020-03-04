@@ -1,2 +1,2 @@
-# letccode-js
-Fun with letcode chalenges
+# letcode-js
+Fun with letcode challenges
