@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "test-watch": "mocha -r ts-node/register src/**/*.spec.ts --watch",
     "coverage": "nyc -r text -e .ts -x \"src/*.spec.ts\" npm run test"
   },
   "devDependencies": {
